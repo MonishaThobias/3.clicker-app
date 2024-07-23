@@ -1,0 +1,73 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+.app-container{
+    margin: 25px auto;
+    border: 1px solid rgb(27, 5, 39);
+    text-align: center;
+    width: 60vw;
+    border-radius: 2px;
+}
+.app-head{
+    border-bottom: 1px solid rgb(27, 5, 39);
+    background-color: rgb(27, 5, 39);
+    color: #ffff;
+}
+.font-icon{font-size: 3rem;}
+.font-icons{font-size: 3rem;color: #ffff;}
+
+
+
+.app-body{
+    background: rgb(243, 202, 173);
+
+}
+
+.clicker-body{
+    width: 30vw;
+    color: #ffff;
+    padding-top: 10px;
+}
+
+.clicker-display{
+    background-color: rgb(57, 12, 204);
+   height: 40vh;
+    border: 1px solid rgb(16, 7, 47);
+border-radius: 5px;
+
+}
+.clicker-display h3{
+  
+    font-size: 10rem;
+}
+.clicker-app{
+    width: 30vw;
+   padding-bottom: 10px;
+}
+.clicker-app button{
+    width: 10vw;
+    height: 15vh;
+    border-radius: 5px;
+}
+.plus{
+    background: green;
+    border: none;
+}
+.refresh{
+    background: rgb(93, 93, 3);
+    border: none;
+
+}
+.minus{
+    background: red;
+    border: none;
+
+}
+
+@media (max-width:768px){
+    .clicker-app button{
+        width: 100%;
+        height: 100%;
+    }
+}
